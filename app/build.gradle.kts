@@ -70,6 +70,9 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.9.7")
     //noinspection UseTomlInstead
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2")
+    //noinspection UseTomlInstead
+    implementation("androidx.compose.material:material-icons-extended:1.7.8")
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

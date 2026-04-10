@@ -15,7 +15,7 @@ fun AppNavigation() {
     var showSplash by remember { mutableStateOf(true) }
 
     if (showSplash) {
-        SplashScreen(onSplashComplete = { showSplash = false })
+        SplashScreen(onSplashComplete = { })
     } else {
         NavHost(navController = navController, startDestination = "onboarding") {
             composable("onboarding") {
