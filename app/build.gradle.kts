@@ -60,6 +60,16 @@ dependencies {
     implementation("androidx.core:core-splashscreen:1.2.0")
     //noinspection UseTomlInstead
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0")
+    //noinspection UseTomlInstead
+    implementation("androidx.navigation:navigation-compose:2.9.7")
+    //noinspection UseTomlInstead
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0")
+    //noinspection UseTomlInstead
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2")
+    //noinspection UseTomlInstead
+    implementation("androidx.navigation:navigation-compose:2.9.7")
+    //noinspection UseTomlInstead
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
